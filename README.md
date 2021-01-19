@@ -4,8 +4,10 @@ This
 
 ## Install
 
-## Usage
+`pip3 install argparse glob mutagen`
 
+## Usage
+```
 usage: mp4-title-changer.py [-h] [-p path] (-c | -g) [-r] [-v] [-d]
 
 cli to change all titles of the mp4-files to the name of the file
@@ -25,9 +27,47 @@ optional arguments:
   -v, --verbose         produces verbose output
   
   -d, --debug           shows debug messages
+```
   
 ## Examples
 
+
+### Folder structure
+```
+/home/user/videodirectory
+```
+
+### Change the titles of the mp4-files
+`python3 mp4-title-changer.py --path /home/user/videodirectory/ --change`
+
+Output:
+```
+Testoutput
+```
+
+### Change the titles of the mp4-files recursivley
+`python3 mp4-title-changer.py --path /home/user/videodirectory/ --change --recursive`
+
+Output:
+```
+Testoutput
+```
+
+### Get the titles of the mp4-files
+`python3 mp4-title-changer.py --path /home/user/videodirectory/ --get`
+
+Output:
+```
+Testoutput
+```
+
+### Get the titles of the mp4-files recursivley
+`python3 mp4-title-changer.py --path /home/user/videodirectory/ --get --recursive`
+
+Output:
+```
+Testoutput
+```
 
 
 ## License
