@@ -1,6 +1,8 @@
 # MP4-Title-Changer
 
-This is command-line-interface (cli) is written in Python3 and can change the titles of mp4-files. The titles of the new mp4-files are the filenames without `.mp4` in camel case.
+This is a command-line-interface (cli) written in Python3 and can change the titles of mp4-files according to the filename. The titles of the new mp4-files are the filenames without `.mp4` in camel case.
+
+`video1.mp4` -> Video1
 
 ## Requirements & Install
 
