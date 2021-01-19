@@ -2,9 +2,13 @@
 
 This
 
-## Install
+## Requirements & Install
 
-`pip3 install argparse glob mutagen`
+To use the cli u must have installe Python3
+
+Install:
+
+`pip3 install argparse mutagen`
 
 ## Usage
 
