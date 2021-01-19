@@ -1,6 +1,6 @@
 # MP4-Title-Changer
 
-This is command-line-interface (cli) is written in Python3 and can change the titles of mp4-files. The titles of the mp4-files are the filenames without `.mp4` in camel case.
+This is command-line-interface (cli) is written in Python3 and can change the titles of mp4-files. The titles of the new mp4-files are the filenames without `.mp4` in camel case.
 
 ## Requirements & Install
 
@@ -37,6 +37,8 @@ optional arguments:
   
   -d, --debug           shows debug messages
 ```
+
+Info: the paramter `--verbose or -v` is not implemented
   
 ## Examples
 
@@ -56,7 +58,11 @@ optional arguments:
 
 Output:
 ```
-Testoutput
+File: /home/user/videodirectory/video1.mp4
+Title: Video1
+
+File: /home/user/videodirectory/video2.mp4
+Title: Video2
 ```
 
 ### Change the titles of the mp4-files recursively
@@ -64,7 +70,23 @@ Testoutput
 
 Output:
 ```
-Testoutput
+File: /home/user/videodirectory/video1.mp4
+Title: Video1
+
+File: /home/user/videodirectory/video2.mp4
+Title: Video2
+
+File: /home/user/videodirectory/sub1/video4.mp4
+Title: Video4
+
+File: /home/user/videodirectory/sub1/video3.mp4
+Title: Video3
+
+File: /home/user/videodirectory/sub1/sub1/video6.mp4
+Title: Video6
+
+File: /home/user/videodirectory/sub2/video5.mp4
+Title: Video5
 ```
 
 ### Get the titles of the mp4-files
@@ -72,7 +94,8 @@ Testoutput
 
 Output:
 ```
-Testoutput
+File: /home/user/videodirectory/video1.mp4 Title: wrong title 1
+File: /home/user/videodirectory/video2.mp4 Title: wrong title 2
 ```
 
 ### Get the titles of the mp4-files recursively
