@@ -4,9 +4,9 @@ This is command-line-interface (cli) is written in Python3 and can change the ti
 
 ## Requirements & Install
 
-To use the cli u must have installed Python3.
+To use the cli you must have installed Python3.
 
-###Installation:
+### Installation:
 
 `pip3 install argparse mutagen`
 
@@ -41,9 +41,14 @@ optional arguments:
 ## Examples
 
 
-### Folder structure
+### File & Folder structure
 ```
-/home/user/videodirectory
+/home/user/videodirectory/video1.mp4 title: "wrong title 1"
+/home/user/videodirectory/video2.mp4 title: "wrong title 2"
+/home/user/videodirectory/sub1/video3.mp4 title: "wrong title 3"
+/home/user/videodirectory/sub1/video4.mp4 title: "wrong title 4"
+/home/user/videodirectory/sub2/video5.mp4 title: "wrong title 5"
+/home/user/videodirectory/sub1/sub1/video6.mp4 title: "wrong title 6"
 ```
 
 ### Change the titles of the mp4-files
