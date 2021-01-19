@@ -45,7 +45,7 @@ Output:
 Testoutput
 ```
 
-### Change the titles of the mp4-files recursivley
+### Change the titles of the mp4-files recursively
 `python3 mp4-title-changer.py --path /home/user/videodirectory/ --change --recursive`
 
 Output:
@@ -61,7 +61,7 @@ Output:
 Testoutput
 ```
 
-### Get the titles of the mp4-files recursivley
+### Get the titles of the mp4-files recursively
 `python3 mp4-title-changer.py --path /home/user/videodirectory/ --get --recursive`
 
 Output:
