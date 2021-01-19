@@ -7,6 +7,11 @@ This
 `pip3 install argparse glob mutagen`
 
 ## Usage
+
+If no path is given with the parameter `-p PATH or --path PATH`, then the path is the current working directory.
+
+You  can use the option `--change or -c` to change the titles of the mp4-files or the option `--get or -g` to get a list of all mp4-files with their title.
+
 ```
 usage: mp4-title-changer.py [-h] [-p path] (-c | -g) [-r] [-v] [-d]
 
