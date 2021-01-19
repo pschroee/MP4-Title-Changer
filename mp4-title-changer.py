@@ -16,7 +16,11 @@ def getTitle(filename):
 
 # Es wird eine Liste mit allen Pfaden zu MP4-Dateien zurückgegeben
 def getFiles(path, recursive=False):
-    return glob.glob(f"{path}/**/*.mp4", recursive=recursive)
+    if recursive:
+        return glob.glob(f"{path}/**/*.mp4", recursive=True)
+    else:
+        return glob.glob(f"{path}/*.mp4")
+    
 
 # Parser
 parser = argparse.ArgumentParser(prog='mp4-title-changer.py',
