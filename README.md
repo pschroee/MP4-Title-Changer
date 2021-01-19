@@ -80,7 +80,12 @@ Testoutput
 
 Output:
 ```
-Testoutput
+File: /home/user/videodirectory/video1.mp4 Title: wrong title 1
+File: /home/user/videodirectory/video2.mp4 Title: wrong title 2
+File: /home/user/videodirectory/sub1/video4.mp4 Title: wrong title 4
+File: /home/user/videodirectory/sub1/video3.mp4 Title: wrong title 3
+File: /home/user/videodirectory/sub1/sub1/video6.mp4 Title: wrong title 6
+File: /home/user/videodirectory/sub2/video5.mp4 Title: wrong title 5
 ```
 
 
