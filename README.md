@@ -1,12 +1,12 @@
 # MP4-Title-Changer
 
-This
+This is command-line-interface (cli) is written in Python3 and can change the titles of mp4-files. The titles of the mp4-files are the filenames without `.mp4` in camel case.
 
 ## Requirements & Install
 
-To use the cli u must have installe Python3
+To use the cli u must have installed Python3.
 
-Install:
+###Installation:
 
 `pip3 install argparse mutagen`
 
