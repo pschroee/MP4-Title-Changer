@@ -4,7 +4,7 @@ This is a command-line-interface (cli) written in Python3 and can change the tit
 
 `video1.mp4` -> Video1
 
-## Requirements & Install
+## Requirements & Installation
 
 To use the cli you must have installed Python3.
 
